@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen" />
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <!-- <nav>
+            <ul>
+                <li><a href="cadastro.html">Cadastrar</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <div id="Cadastro-Container">
+        <h1>Cadastrar</h1>
+        <form name="cadastroUsuario" method="POST">
+            <h2>Detalhes da Conta</h2>
+            <label for="formEmail">Email: </label><br>
+            <input type="email" id="inputEmail" name="inputEmail" placeholder="seuemail@email.com"><br>
+            <label for="formConfirmaEmail">Confirmar email: </label><br>
+            <input type="email" id="inputConfirmaEmail" name="inputConfirmaEmail" placeholder="seuemail@email.com"><br>
+            
+            
+            <label for="formSenha">Senha: </label><br>
+            <input type="password" id="inputSenha" name="inputSenha" placeholder="************"><br>
+            <label for="formConfirmaSenha">Confirmar Senha: </label><br>
+            <input type="password" id="inputConfirmaSenha" name="inputConfirmaSenha" placeholder="************""><br>
+            
+            <h2>Informações pessoais</h2>
+            <label for="formName">Nome: </label><br>
+            <input type="text" id="inputName" name="inputName" placeholder="Edson"><br>
+            <label for="formSobrenome">Sobrenome: </label><br>
+            <input type="text" id="inputSobrenome" name="inputSobrenome" placeholder="Saraiva"><br>
+            
+            <label for="formDataAniversario">Data de aniversário:</label><br>
+            <input type="date" id="inputDataAniversario" name="inputDataAniversario" placeholder="XX/XX/XXXX"><br>
+            
+            <label for="formNacionalidade">Nacionalidade:</label><br>
+            <select name="formNacionalidade" id="formNacionalidade">
+                <option value="">Selecione uma Nacionalidade</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select><br>
+            
+            <label for="formNumeroCelular">Número de celular: </label><br>
+            <input type="number" id="inputNumeroCelular" name="inputNumeroCelular" placeholder="+55 (11) 99999-9999"><br>
+            
+            
+            <h2>Termos e Condições</h2>
+            <input type="checkbox" id="termosCondicoes" name="termosCondicoes" value="Termos">
+            <label for="vehicle1">Eu aceito so <a href="#">Termos e Condições</a></label><br>
+            
+            <input type="submit" value="Cadastrar" id="inputSubmitCadastrar">
+            
+            <h3>OU</h3>
+            <p>Já possui conta?</p>
+            <a href="#">Logar</a>
+        </div>
+            
+        </form>
+    </body>
+    </html>
